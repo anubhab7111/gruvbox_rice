@@ -47,7 +47,7 @@ exec --no-startup-id caffeine
 exec --no-startup-id nm-applet
 
 # Adding wallpaper
-exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper/dopesmoker_gruvbox.png 
+exec --no-startup-id feh --bg-scale ~/.config/i3/wallpaper.png
 
 # running picom as deamon process
 exec --no-startup-id picom --experimental-backend --deamon ~/.config/picom/picom.conf -b
